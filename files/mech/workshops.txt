@@ -1,0 +1,16 @@
+numberofitems:1
+----------------------------
+name-1:Advanced Manufacturing
+date-1:21 jul. 2011
+person-1:Prof. P.N.Rao
+description-1:One Day workshop on ADVANCED MANUFACTURING methods conducted on 21st July 2011. Chief Guest Prof. P.N.Rao, Professor in Dept. of Industrial Technology, University of Northern Iowa, USA.
+----------------------------
+name-2:civil engg workshop
+date-2:2rd oct
+person-2:mr. civil
+description-2:sdgbstgb  saegtwsagwsgt wegtwaqgt waergawsrgtwset 
+----------------------------
+name-3:civil engg workshop
+date-3:3rd oct
+person-3:mr. civil
+description-3:sdgbstgb  saegtwsagwsgt wegtwaqgt waergawsrgtwset 

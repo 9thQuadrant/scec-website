@@ -1,0 +1,16 @@
+numberofitems:3
+----------------------------
+name-1:PYTHON Workshop
+date-1:13 - 14 Feb. 2017
+person-1:Rajan from Microsoft
+description-1:
+----------------------------
+name-2:IOT Workshop
+date-2:04 - 05 Jan 2017
+person-2:Samuran Singh from Dalvic Apps
+description-2:
+----------------------------
+name-3:Big Data and Hadoop Workshop
+date-3:22 - 24 Sept, 2016
+person-3:Mr. Pradeep From Tech Pinnacle Bit Solutions Pvt. Ltd
+description-3:

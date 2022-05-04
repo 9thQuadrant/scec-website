@@ -1,0 +1,486 @@
+﻿<!DOCTYPE html>
+<html>
+<title>About Us</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Lato", sans-serif}
+body {font-size:16px;}
+.w3-half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
+.w3-half img:hover{opacity:1}
+th{font-weight:lighter;}
+.material-icons{vertical-align:middle;}
+
+</style>
+<script src="js/jquery.min.js"></script>
+<script src="js/wow.min.js"></script>
+<body>
+<div class="w3-top w3-cyan w3-card-4" style="z-index:2">
+  <ul class="w3-navbar" id="myNavbar">
+    <li class="w3-hide-medium w3-hide-large w3-opennav w3-right">
+      <a class="w3-hover-black" href="javascript:void(0);" onClick="toggleFunction()" title="Toggle Navigation Menu">
+        <i class="fa fa-bars"></i>
+      </a>
+    </li>
+    <li class="w3-hover-white"><a href="index.php" class="w3-hover-white">Home</a></li>
+    <li class="w3-hide-small w3-dropdown-hover w3-white"><a href="about.html" class="w3-white">About SCEC</a>
+		<div class="w3-dropdown-content" style="background-color:transparent">
+			<div class="w3-animate-zoom w3-blue w3-card-4">
+			<a href="about.html#chairman" 	class="w3-hover-white w3-animate-bottom">Chairman</a>
+			<a href="about.html#biography" 	class="w3-hover-white w3-animate-top">Chairman Biography</a>
+			<a href="about.html#secretary" 	class="w3-hover-white w3-animate-bottom">Secretary</a>
+			<a href="about.html#ceo" 		class="w3-hover-white w3-animate-top">CEO</a>
+			<a href="about.html#principal" 	class="w3-hover-white w3-animate-bottom">Principal</a>
+			<a href="about.html#organising" class="w3-hover-white w3-animate-top">Organisation Chart</a>
+			<a href="about.html#governing" 	class="w3-hover-white w3-animate-bottom">Governing Body</a>
+			<a href="about.html#mandatory" 	class="w3-hover-white w3-animate-top">Mandatory Disclosure</a>
+			<a href="about.html#location" 	class="w3-hover-white w3-animate-bottom">Location</a>
+		</div>
+		</div>
+	</li>
+    <li class="w3-hide-small w3-dropdown-hover w3-hover-white"><a class="w3-hover-white" href="admissions.html"> Admissions</a>
+		<div class="w3-dropdown-content" style="background-color:transparent">
+			<div class="w3-animate-zoom w3-blue w3-card-4">
+			<a href="admissions.html#procedure" 	class="w3-hover-white w3-animate-top">Admission Procedure</a>
+			<a href="admissions.html#download" 		class="w3-hover-white w3-animate-bottom">Download Prospectus</a>
+			<a href="admissions.html#application" 	class="w3-hover-white w3-animate-top">Application Form</a>
+			<a href="admissions.html#intake" 		class="w3-hover-white w3-animate-bottom">Intake</a>
+			<a href="admissions.html#contact" 		class="w3-hover-white w3-animate-top">Contact @ Admission</a>
+		</div>
+		</div>
+	
+	
+	</li>
+    <li class="w3-hide-small w3-dropdown-hover w3-hover-white"><a class="w3-hover-white">Departments</a>
+		<div class="w3-dropdown-content" style="background-color:transparent">
+			<div class="w3-animate-zoom w3-blue w3-card-4">
+			<a href="department_cse.php" 	class="w3-hover-white w3-animate-top">CSE</a>
+			<a href="department_mech.php" 	class="w3-hover-white w3-animate-bottom">MECH</a>
+			<a href="department_eee.php" 	class="w3-hover-white w3-animate-top">EEE</a>
+			<a href="department_ece.php" 	class="w3-hover-white w3-animate-bottom">ECE</a>
+			<a href="department_civil.php" 	class="w3-hover-white w3-animate-top">CIVIL</a>
+			<a href="department_hbs.php" 	class="w3-hover-white w3-animate-bottom">HBS</a>
+			<a href="department_mba.php" 	class="w3-hover-white w3-animate-top">MBA</a>
+			</div>
+		</div>
+	
+	</li>
+    <li class="w3-hide-small w3-dropdown-hover w3-hover-white"><a class="w3-hover-white" href="facilities.html">Facilities</a>
+		<div class="w3-dropdown-content" style="background-color:transparent">
+			<div class="w3-animate-zoom w3-blue w3-card-4">
+			<a href="facilities.html#central" 	class="w3-hover-white w3-animate-bottom">Central Library</a>
+			<a href="facilities.html#digital" 	class="w3-hover-white w3-animate-top">Digital Library</a>
+			<a href="facilities.html#library" 	class="w3-hover-white w3-animate-bottom">Visual Library</a>
+		</div>
+		</div>
+	
+	</li>
+    <li class="w3-hide-small w3-dropdown-hover w3-hover-white"><a class="w3-hover-white" href="placements.php">Placements</a>
+		<div class="w3-dropdown-content" style="background-color:transparent">
+			<div class="w3-animate-zoom w3-blue w3-card-4">
+			<a href="placements.php#training" 	class="w3-hover-white w3-animate-bottom">Placement Cell</a>
+			<a href="placements.php#companies" 	class="w3-hover-white w3-animate-top">Companies Visited</a>
+			<a href="placements.php#overview" 	class="w3-hover-white w3-animate-bottom">Overview</a>
+			<a href="placements.php#gallery" 	class="w3-hover-white w3-animate-bottom">Gallery</a>
+		</div>
+		</div>
+	</li>
+    <li class="w3-hide-small w3-hover-white"><a class="w3-hover-white" href="gallery.php">Gallery</a></li>
+    <li class="w3-hide-small w3-hover-white"><a class="w3-hover-white" href="NSS.php">NSS</a></li>
+    <li class="w3-hide-small w3-hover-white"><a class="w3-hover-white" href="contact.html">Contact</a></li>
+	
+  </ul><!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-hide w3-hide-large w3-hide-medium">
+    <ul class="w3-navbar w3-left-align w3-white">
+	<li class="w3-hide-small w3-hover-white"><a>Home</a></li>
+    <li class="w3-hide-small w3-hover-white"><a>About SCEC</a>
+	<li class="w3-hide-small w3-hover-white"><a>Admissions</a></li>
+    <li class="w3-hide-small w3-hover-white"><a>Depratments</a>
+	<li class="w3-hide-small w3-hover-white"><a>Facilities</a>
+    <li class="w3-hide-small w3-hover-white"><a>Placements</a></li>
+    <li class="w3-hide-small w3-hover-white"><a>Gallery</a></li>
+    <li class="w3-hide-small w3-hover-white"><a>NSS</a></li>
+
+    </ul>
+  </div>
+</div>
+<!-- Sidenav/menu -->
+<nav class="w3-sidenav w3-dark-grey w3-collapse w3-top w3-medium w3-padding sidebarw3 w3-animate-left" style="z-index:1;width:200px;margin-top:20px" id="mySidenav"><br>
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-padding-xlarge w3-hide-large w3-display-topleft w3-hover-white" style="width:80%;">Close Menu</a>
+<div class="w3-container w3-margin-top w3-center w3-xlarge">
+    <img src="logo.png" style="width:100%"/><br/>About
+  </div>
+  <a href="#about" onclick="w3_close()" class="w3-padding w3-hover-white w3-border-bottom">About us</a> 
+  <a href="#chairman" onclick="w3_close()" class="w3-padding w3-hover-white w3-border-bottom">Chairman</a> 
+  <a href="#biography" onclick="w3_close()" class="w3-padding w3-hover-white w3-border-bottom">Chairman Biography</a> 
+  <a href="#secretary" onclick="w3_close()" class="w3-padding w3-hover-white w3-border-bottom">Secretary</a> 
+  <a href="#ceo" onclick="w3_close()" class="w3-padding w3-hover-white w3-border-bottom">CEO</a> 
+  <a href="#fd" onclick="w3_close()" class="w3-padding w3-hover-white w3-border-bottom">Finance Director</a> 
+  <a href="#principal" onclick="w3_close()" class="w3-padding w3-hover-white w3-border-bottom">Principal</a> 
+  <a href="#cao" onclick="w3_close()" class="w3-padding w3-hover-white w3-border-bottom">CAO</a> 
+  <a href="#organising" onclick="w3_close()" class="w3-padding w3-hover-white w3-border-bottom">Organisation Chart</a>
+  <a href="#governing" onclick="w3_close()" class="w3-padding w3-hover-white w3-border-bottom">Governing Body</a>  
+  <a href="#mandatory" onclick="w3_close()" class="w3-padding w3-hover-white w3-border-bottom">Mandatory Disclosure</a>
+  <a href="#location" onclick="w3_close()" class="w3-padding w3-hover-white w3-border-bottom">Location</a>
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-container w3-top w3-hide-large w3-red w3-xlarge w3-padding">
+  <a href="javascript:void(0)" class="w3-btn w3-red w3-border w3-border-white w3-margin-right" onclick="w3_open()">☰</a>
+  <img src="logo.png"/>
+</header>
+
+<!-- Overlay effect when opening sidenav on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:280px;">
+
+
+
+  <!-- Header -->
+  <div class="w3-container" id="about" style="margin-top:80px">
+  <h1 class="w3-xlarge w3-text-red"><b>About Us</b></h1>
+  <hr style="width:100px;border:2px solid red" class="w3-round">
+	<div class="w3-row w3-card-8 w3-round">
+	<div class="w3-col m6 l6 w3-padding">
+	<p class="w3-large w3-text-red w3-border-bottom">What we are</p>
+	<p class="w3-justify w3-medium">
+	<br/>Established in the year of 2009, Sri Chaitanya Engineering College marks yet another effort on the part of the Chaitanya Group is located in an over 50 acre naturally scene idyllic environment near Kommadi in Greater Visakhapatnam. Though a fledgling, the Institute has earned a place of esteem and the patronage of reputed business organizations within a short time. To make the life at CEC pleasant and comfortable for its students, the Campus is provided with the finest facilities and educational resources. The aims, approach and activities of CEC are guided by all its stakeholders and Management - students, industry and the society. The strengths and specialties of CEC are enhanced by its network of renowned institutions and business organizations. In the dawn of the technological millennium, CEC is poised to seize the opportunities to emerge as a national centre of excellence in the field of engineering.
+	
+	</p>
+	
+	</div>
+	<div class="w3-col m6 l6 w3-padding-large">
+	<p class="w3-large w3-border-bottom w3-text-red">Placements in MNC Companies</p>
+	<span class="w3-medium">IBM</span>
+		<div class="w3-progress-container w3-pale-blue">
+			<div class="w3-progressbar w3-blue" style="width:85%"></div>
+		</div>
+	<span class="w3-medium">Tech Mahindra</span>
+		<div class="w3-progress-container w3-pale-blue">
+			<div class="w3-progressbar w3-blue" style="width:75%"></div>
+		</div>
+	<span class="w3-medium">Lenovo</span>
+		<div class="w3-progress-container w3-pale-blue">
+			<div class="w3-progressbar w3-blue" style="width:45%"></div>
+		</div>
+	
+	<span class="w3-medium">Wipro</span>
+		<div class="w3-progress-container w3-pale-blue">
+			<div class="w3-progressbar w3-blue" style="width:65%"></div>
+		</div>
+		
+	<span class="w3-medium">Heboen Technologies</span>
+		<div class="w3-progress-container w3-pale-blue">
+			<div class="w3-progressbar w3-blue" style="width:75%"></div>
+		</div>
+	</div>
+	
+	
+	
+	</div>
+  </div>
+  
+ <!-- Chairman-->
+<div class="w3-container" id="chairman">
+ 
+    <h1 class="w3-xlarge w3-text-red"><b>Chairman</b></h1>
+    <hr style="width:100px;border:2px solid red" class="w3-round">
+   <div class="w3-row w3-card-8 w3-round w3-padding-large">
+	<div class="w3-col m4 l4">
+		<img src="images/about/Chairman.jpg" style="width:100%;border-radius:50%;"/>
+	</div>
+		<div class="w3-col m8 l8 w3-padding-large w3-align-left"> 
+		<span class="w3-large">CHAIRMAN'S MESSAGE</span><br/>
+		<span class="w3-large w3-border-bottom">Dr. K.V.V Satyanarayana Raju<br/>Ex-MLC, Ex-WHIP,AP Legislative Council.</span><br/>
+		<p class="w3-justify w3-hide-small w3-align-left w3-medium w3-text-black">
+	Founder & Chairman, Sri Chaitanya Group Torpedoed by the tides of time, today the firmament of higher education is in a great ferment. In the wake of intense shake-up triggered by the hidden fault-lines, many engineering colleges and institutions offering professional courses have been swept of their feet in recent times. Even more are expected to follow suit.Proliferation has given way to purgation. Few could come to terms unscathed. Fewer could even think of consolidation.
+		</p>
+  
+  </div>
+  </div>
+  </div>
+
+  <!-- Services -->
+<div class="w3-container" id="biography">
+ 
+    <h1 class="w3-xlarge w3-text-red"><b>Chairman Biography</b></h1>
+    <hr style="width:100px;border:2px solid red" class="w3-round">
+   <div class="w3-row w3-card-8 w3-round w3-padding-large">
+	
+	<div class="w3-col m8 l8 w3-padding-large w3-align-left"> 
+		<span class="w3-large">CHAIRMAN'S BIOGRAPHY </span><br/>
+		<span class="w3-large w3-border-bottom">Dr. K.V.V Satyanarayana Raju<br/>Ex-MLC, Ex-WHIP,AP Legislative Council.</span><br/>
+		<p class="w3-justify w3-hide-small w3-align-left w3-medium w3-text-black">
+	Founder & Chairman, Sri Chaitanya Group Torpedoed by the tides of time, today the firmament of higher education is in agreat ferment. In the wake of intense shake-up triggered by the hidden fault-lines, many engineering colleges and institutions offering professional courses have been swept of their feet in recent times. Even more are expected to follow suit.Proliferation has given way to purgation. Few could come to terms unscathed. Fewer could even think of consolidation.
+		</p>
+  
+  </div>
+  <div class="w3-col m4 l4">
+		<img src="images/about/Chairman.jpg" style="width:100%;border-radius:50%;"/>
+	</div>
+  </div>
+  </div>
+
+  <!-- Designers -->
+  <div class="w3-container" id="secretary">
+ 
+    <h1 class="w3-xlarge w3-text-red"><b>Secretary</b></h1>
+    <hr style="width:100px;border:2px solid red" class="w3-round">
+   <div class="w3-row w3-card-8 w3-round w3-padding-large">
+	<div class="w3-col m4 l4">
+		<img src="images/about/secretary.jpg" style="width:100%;border-radius:50%;"/>
+	</div>
+		<div class="w3-col m8 l8 w3-padding-large w3-align-left"> 
+		<span class="w3-large">SECRETARY'S MESSAGE</span><br/>
+		<span class="w3-large w3-border-bottom">
+		Sri. K. Sasi Kiran Varma,<br/>
+		B.Tech, M.B.A.<br/>
+		Secretary, Sri Chaitanya Institutions-Visakhapatnam.<br/>
+		mailto:<span class="w3-codespan">secretary@cec.ac.in</span>
+		</span><br/>
+		<p class="w3-justify w3-hide-small w3-align-left w3-medium w3-text-black">
+Sri Chaitanya Engineering College  is founded to meet the increasing demand for competent engineering graduates. Within a short span of its inception, CEC has grown to be a premier engineering college of its kind and has won laurels and kudos from the industry.
+The faculty and staff in CEC are dedicated to providing first-class education that instills strong and potent basic knowledge for sound practice in science and engineering for the well-being of the society. The Institute offers curricula that nurtures creative thinking and prepares students for productive and rewarding careers. The Institute offers programmes that deepen learning experiences of our students and prepare them for successful careers as engineers.
+		</p>
+  
+  </div>
+  </div>
+  </div>
+  
+  <!-- The Team -->
+ <div class="w3-container" id="ceo">
+ 
+    <h1 class="w3-xlarge w3-text-red"><b>CEO</b></h1>
+    <hr style="width:100px;border:2px solid red" class="w3-round">
+   <div class="w3-row w3-card-8 w3-round w3-padding-large">
+	
+	<div class="w3-col m8 l8 w3-padding-large w3-align-left"> 
+		<span class="w3-large">Our CEO </span><br/>
+		<span class="w3-large w3-border-bottom">Capt. Dr. D.L.N.Raju<br/>
+		M.Com, Ph.D., PGDEA, MISTE<br/>
+		Chief Executive Officer, Chaitanya Educational Group.</span>
+		mailto:<span class="w3-codespan">ceo@chaitanya.ac.in</span>
+		<p class="w3-justify w3-hide-small w3-align-left w3-medium w3-text-black">
+	Founder & Chairman, Sri Chaitanya Group Torpedoed by the tides of time, today the firmament of higher education is in a great ferment. In the wake of intense shake-up triggered by the hidden fault-lines, many engineering colleges and institutions offering professional courses have been swept of their feet in recent times. Even more are expected to follow suit.Proliferation has given way to purgation. Few could come to terms unscathed. Fewer could even think of consolidation.
+		</p>
+  
+  </div>
+  <div class="w3-col m4 l4">
+		<img src="images/about/ceo.jpg" style="width:100%;border-radius:50%;"/>
+	</div>
+  </div>
+  </div>
+
+  <!-- Packages / Pricing Tables -->
+  <div class="w3-container" id="fd">
+ 
+    <h1 class="w3-xlarge w3-text-red"><b>Finance Director</b></h1>
+    <hr style="width:100px;border:2px solid red" class="w3-round">
+   <div class="w3-row w3-card-8 w3-round w3-padding-large">
+	<div class="w3-col m4 l4">
+		<img src="images/about/fd.jpg" style="width:100%;border-radius:50%;"/>
+	</div>
+		<div class="w3-col m8 l8 w3-padding-large w3-align-left"> 
+		<span class="w3-large">Our FD</span><br/>
+		<span class="w3-large w3-border-bottom">Sri K.Murali Krishnam Raju,<br/>
+		M.Com<br/>
+		Director(Finance)</span><br/>
+		mailto:<span class="w3-codespan">fd@cec.ac.in</span>
+		<br/>
+		<p class="w3-justify w3-hide-small w3-align-left w3-medium w3-text-black">Sri K.Murali Krishnam Raju, having decades of experience as a General Manager in APSRTC.
+		</p>
+  
+  </div>
+  </div>
+  </div>
+ 
+  <!-- Contact -->
+  <div class="w3-container" id="principal">
+ 
+    <h1 class="w3-xlarge w3-text-red"><b>Principal</b></h1>
+    <hr style="width:100px;border:2px solid red" class="w3-round">
+   <div class="w3-row w3-card-8 w3-round w3-padding-large">
+	
+	<div class="w3-col m8 l8 w3-padding-large w3-align-left"> 
+		<span class="w3-large">Our Beloved Principal </span><br/>
+		<span class="w3-large w3-border-bottom">Dr.S.N.V.S.Prasad,<br/>
+		Ph.D.<br/>
+		Principal,<br/>
+		Sri Chaitanya Engineering College(SCEC).</span><br/>
+		mailto:<span class="w3-codespan">principal@cec.ac.in</span>
+		<p class="w3-card-4 w3-justify w3-hide-small w3-align-left w3-medium w3-text-white w3-blue w3-round w3-padding">
+		
+		</p>
+  
+  </div>
+  <div class="w3-col m4 l4">
+		<img src="images/about/principal.jpg" style="width:100%;border-radius:50%;"/>
+	</div>
+  </div>
+  </div>
+
+<!-- End page content -->
+
+ <div class="w3-container" id="cao">
+ 
+    <h1 class="w3-xlarge w3-text-red"><b>CAO</b></h1>
+    <hr style="width:100px;border:2px solid red" class="w3-round">
+   <div class="w3-row w3-card-8 w3-round w3-padding-large">
+	<div class="w3-col m4 l4">
+		<img src="images/about/cao.jpg" style="width:100%;border-radius:50%;"/>
+	</div>
+		<div class="w3-col m8 l8 w3-padding-large w3-align-left"> 
+		<span class="w3-large">Our CAO</span><br/>
+		<span class="w3-large w3-border-bottom">Sri.S.S.Varma, M.Com,<br/>
+		Chief Administrative Officer,<br/>
+		Sri Chaitanya Engineering College</span><br/>
+		mailto:<span class="w3-codespan">cao@cec.ac.in</span>
+		<br/>
+		<p class="w3-justify w3-hide-small w3-align-left w3-medium w3-text-black">Sri S.S.Varma, having decades of experience in administration as a General Manager in Visakhapatnam Port Trust and as a Manager for Abroad Companies.
+		</p>
+  
+  </div>
+  </div>
+  </div>
+ 
+
+<!--------------->
+ <div class="w3-container" id="organising">
+ 
+    <h1 class="w3-xlarge w3-text-red"><b>Organisation Chart</b></h1>
+    <hr style="width:100px;border:2px solid red" class="w3-round">
+<div class="w3-card-8 w3-round w3-padding-64 w3-center">
+<img src="images/about/orgchart.jpg" style="width:30%;"/>
+</div>
+</div>
+
+
+
+<!--------------->
+
+ <div class="w3-container" id="governing">
+ 
+    <h1 class="w3-xlarge w3-text-red"><b>Members of Governing body</b></h1>
+    <hr style="width:100px;border:2px solid red" class="w3-round">
+
+	<table class="w3-table w3-card-8 w3-round w3-striped w3-hoverable">
+<tr class="w3-cyan">
+  <th>S No.</th><th>	Name</th><th>	Designation</th><th>Nominated By</th>
+</tr>
+	<tr>
+  <th>1.</th><th>	Dr.V.Balamohan Das</th><th>	Chairman	</th><th>Society Management</th>
+</tr>
+<tr>  
+  <th>2.</th><th>	Dr.K.V.V.Satynarayana Raju</th><th>	Member	</th><th>Society Management</th>
+  </tr>
+<tr>
+  <th>3.</th><th>	Sri K.Ravi Kiran Varma</th><th>Member	</th><th>Society Management</th>
+  </tr>
+<tr>
+  <th>4.</th><th>	Sri Sasi Kiran Varma</th><th>	Member	</th><th>Society Management</th></tr><tr>
+  <th>5.</th><th>	Capt.D.L.N.Raju</th><th>	Member	</th><th>Society Management</th></tr><tr>
+  <th>6.</th><th>	Dr.K.Venkata Rao</th><th>	Member	</th><th>Faculty</th></tr><tr>
+  <th>7.</th><th>	Sri K.Narasinga Rao</th><th>	Member	</th><th>Faculty</th></tr><tr>
+  <th>8.</th><th>	Dr.P.N.Narasimha Reddy</th><th>	Member	</th><th>Society Management</th></tr><tr>
+  <th>9.</th><th>	Sri Ramesh Datla</th><th>	Member	</th><th>Society Management</th></tr><tr>
+  <th>10.</th><th>	Sri P.V.N.Raju</th><th>	Member	</th><th>AICTE or UGC</th></tr><tr>
+  <th>11.</th><th>	Smt.K.Sandhya Rani</th><th>	Member	</th><th>State Government</th></tr><tr>
+  <th>12.</th><th>	Sri E.V.Narayana</th><th>	Member	</th><th>Nominee of JNTU Kakinada</th></tr><tr>
+  <th>13.</th><th>	Sri K.Ravi Kiran Varma</th><th>	Member , Secretary	</th><th>Society Management</th></tr>
+
+</table>
+	
+</div>
+<!--------------->
+<div class="w3-container" id="mandatory">
+
+    <h1 class="w3-xlarge w3-text-red"><b>Mandatory Disclosure</b></h1>
+    <hr style="width:100px;border:2px solid red" class="w3-round">
+<div class="w3-panel w3-white w3-leftbar w3-border-cyan w3-pale-blue w3-padding-16">
+<a>Download Mandatory Disclosure</a>
+</div>
+</div>
+
+<!----------------->
+<div class="w3-container" id="location">
+
+    <h1 class="w3-xlarge w3-text-red"><b>Location</b></h1>
+    <hr style="width:100px;border:2px solid red" class="w3-round">
+<div class="w3-panel w3-white w3-leftbar w3-border-cyan w3-pale-blue w3-padding-16">
+<span class="w3-border-bottom w3-text-grey">We are located here:</span><br/>
+Sri Chaitanya Engineering College,<br/>
+Chaitanya Valley, <br/>Kommadi, <br/>Madhurawada,<br/>
+Visakhapatnam - 530048, <br/>Andhra Pradesh.<br/>
+Phone: 9949993477
+
+</div>
+
+
+</div>
+<!----------------->
+</div>
+
+<!-- W3.CSS Container -->
+<div class="w3-light-grey w3-container w3-padding-32" style="margin-top:75px;padding-right:58px"><p class="w3-right">Powered by<br/><img src="images/logo/logo.png"/></p></div>
+  <!-- Modal for full size images on click-->
+  <div id="modal01" class="w3-modal w3-black w3-padding-0" onclick="this.style.display='none'">
+    <span class="w3-closebtn w3-text-white w3-opacity w3-hover-opacity-off w3-large w3-container w3-display-topright">×</span>
+    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+      <img id="img01" class="w3-image">
+      <p id="caption"></p>
+    </div>
+  </div>
+
+<script>
+// Script to open and close sidenav
+function w3_open() {
+    document.getElementById("mySidenav").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+    document.getElementById("mySidenav").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+}
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+//scroll on click
+$('#mySidenav').on('click', 'a', function(event){
+   event.preventDefault();
+
+    $('html,body').animate({
+        scrollTop: $( $.attr(this, 'href') ).offset().top-50
+    }, 500);
+});
+//scroll on enter
+setTimeout(function(){
+if(window.location.hash)
+scrollToElement(window.location.hash);
+},1000);
+//wow
+var wow=new WOW({offset:300});
+wow.init();
+//scroll
+function scrollToElement(ele) {
+
+    //$(window).scrollTop(ele.offset().top).scrollLeft(ele.offset().left);
+	    $('html,body').animate({
+        scrollTop: $( $(ele) ).offset().top-50
+    }, 500);
+	
+}
+
+</script>
+
+</body>
+</html>

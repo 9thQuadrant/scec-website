@@ -1,0 +1,9 @@
+company-1:c core
+company-2:Genesys
+company-3:Efftronics
+company-4:Multiplier Solutions
+company-5:Glenwood
+company-6:Juspay
+company-7:aptroid
+company-8:cap gemini
+company-8:sans pareil

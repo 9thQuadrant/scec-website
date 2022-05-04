@@ -1,0 +1,16 @@
+numberofitems:3
+----------------------------
+name-1:Two Day workshop on 'Embedded Systems'
+date-1: 10- 11 Sept. 2016
+person-1:Mr. Feroz Khan Technosoft sol. vizag
+description-1:
+----------------------------
+name-2:Semiaron 'Analysis and design of Gas Insulated sub-stations'
+date-2: 31 Aug. 2016
+person-2:Prof. Nagesh Kumar, GITAM University
+description-2:
+----------------------------
+name-3:19 - 20 Sept. 2016
+date-3:Seminar on 'Industrial Drives and Automation'
+person-3:Prof. G. surya Kalyan
+description-3:

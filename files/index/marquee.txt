@@ -1,0 +1,21 @@
+numberOfItems:5
+marquee-1:Rana Visit
+marquee-2:Upcoming Fest
+marquee-3:Placements
+marquee-4:Placements @ Varun Motors
+marquee-5:Placements @ C Core India
+description-1: Rana Visit to our college on GHAZI promo's
+description-2: Upcomig fest is there, expectedly in march 1st Or 2nd week 
+description-3:Congratulations for the students selected till now for the academic year 2016-2017.
+description-4: Happy to inform that our mechanical students of Chaitanya Engineering College has been selected in Pool campus selections conducted@GIET, Rajahmundry by "VARUN MOTORS" dated 21/12/2016.
+description-5:We Very happy to inform you that TWELVE of our Final Year students  ( From Mech – 6, CSE – 5 & ECE- 1) Selected in C CORE INDIA PVT.LTD, LUCKNOW on Campus Placement Drive. Our hearty congratulations to the selected students.
+participate-1:GO TO GALLERY
+participate-2:PARTICIPATE
+participate-3:no
+participate-4:no
+participate-5:no
+link-1:gallery.php#Rana Visit
+link-2:http://shristi.esy.es
+link-3:-
+link-4:-
+link-5:-

@@ -1,0 +1,16 @@
+numberofitems:3
+----------------------------
+name-1:Civil Students Field Visit
+date-1:Recent.
+person-1:Organised by college
+description-1: 
+----------------------------
+name-2:Service Activity vy Civil Students
+date-2:Recent.
+person-2:Organised by college
+description-2:
+----------------------------
+name-3:Cultural Activities
+date-3:Recent.
+person-3:Organisd by college
+description-3:
